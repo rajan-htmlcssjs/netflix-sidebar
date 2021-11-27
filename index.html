@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Side Bar</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <span class="nav-btn">
+        <i class="fas fa-bars" id='sidebar-open-btn'></i>
+    </span>
+    <div class="logo">
+        <img src="logo.png" alt="Logo" />
+    </div>
+    <div class="nav side-fixed side-bar-black">
+        <div class="nav side-bar-red ">
+            <div class="nav side-bar-white ">
+                <i class="fas fa-times close-btn" id='sidebar-close-btn'></i>
+                <ul class="list">
+                    <li><a href="#">Teams</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Life at Netflix</a></li>
+                    <li>
+                      <ul>
+                        <li><a href="#">Netflix culture memo</a></li>
+                        <li><a href="#">Work life balance</a></li>
+                        <li><a href="#">Inclusion & diversity</a></li>
+                        <li><a href="#">Blog</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
